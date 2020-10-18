@@ -26,7 +26,7 @@ class Example {
   }
 
   void write() {
-    print('-' * 100);
+    print('-' * 100); // Python S2
     print('Write file test');
 
     File file = new File('written.txt');
