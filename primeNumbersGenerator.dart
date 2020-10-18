@@ -1,14 +1,16 @@
 import 'dart:io';
 import 'dart:core';
-// import 'dart:svg';
-// import 'dart:time';
+
+// does not make any difference between running direct on dart <app> or running the compiled version with dart2native
+// compiled: 144878 milliseconds
+// not compiled: 141367 milliseconds
 
 void main() {
   DateTime start = new DateTime.now();
 
   Generator generator = new Generator();
 
-  int numberPrimes = 100;
+  int numberPrimes = 100000;
 
   List<int> primes = generator.generateFirst(numberPrimes);
 

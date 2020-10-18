@@ -1,0 +1,1 @@
+dart2native primeNumbersGenerator.dart -o primeNumbersGenerator
